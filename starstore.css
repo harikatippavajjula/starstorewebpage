@@ -1,0 +1,311 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading,nav{
+    width: 110%;
+    height: 100px;
+    background-color: navy;
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+}
+#heading{
+    background-color: black;
+    font-size: 50px;
+    padding: 10px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+
+#rightnav{
+    float: right;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#login,#select,#signup,#Location{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#signup{
+    background-color: orange;
+}
+#men1,#men2,#men3,#men4,#men5{
+    background-color: white;
+    margin: 10px;
+    width: 18%;
+    /* border-radius: 10px; */
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    /* border-radius: 30px; */
+}
+#men{
+    width: 100%;
+    height: 900%;
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#imagemen{
+      width: 280%;
+    height: 425px;   /* fixed equal height */
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#women{
+    width: 100%;
+    height: 900%;
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+input{
+    background-color: orange;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#men{
+    background-color: lightcyan;
+}
+#women1, #women2, #women3, #women4, #women5{
+    background-color: white;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    /* border-radius: 30px; */
+    text-align: center;
+    padding-top: 0;
+}
+
+#women img {
+    width: 100%;
+    height: 425px;   /* fixed equal height */
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#kid1, #kid2, #kid3, #kid4, #kid5{
+    background-color: white;
+    width: 17%;
+    height: auto;
+    margin: 10px;
+    /* border-radius: 30px; */
+    text-align: center;
+    padding-top: 0;
+}
+
+#kids img {
+    width: 100%;
+    height: auto;   /* fixed equal height */
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#electronics {
+    
+    width: 100%;
+    background-color: lightcyan;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#kids{
+    width: 100%;
+    height: 900%;
+    background-color: rgb(197, 197, 245);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ele1,#ele2,#ele3,#ele4,#ele5{
+ background-color: white;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    /* border-radius: 30px; */
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#electronics img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    
+}
+#electronics{
+    
+    width: 100%;
+    height: 900%;
+    background-color: rgb(248, 193, 173);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#beauty1, #beauty2, #beauty3, #beauty4, #beauty5{
+    background-color: white;
+    width: 18%;
+    height: auto;
+    margin: 10px;
+    /* border-radius: 30px; */
+    text-align: center;
+    padding-top: 0;
+}
+
+#pro img {
+    width: 100%;
+    height: 425px;   /* fixed equal height */
+    object-fit: contain; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#beauty{
+    width: 100%;
+    height: 900%;
+    background-color:rgb(208, 247, 208);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#grocery1,#grocery2,#grocery3,#grocery4,#grocery5{
+    background-color: white;
+    margin: 10px;
+    width: 18%;
+    /* border-radius: 10px; */
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    /* border-radius: 30px; */
+}
+#grocery{
+    width: 100%;
+    height: 900%;
+    background-color: rgb(235, 135, 135);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gro{
+      width: 280%;
+    height: 425px;   /* fixed equal height */
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#home1,#home2,#home3,#home4,#home5{
+    background-color: white;
+    width: 15%;
+    height: 350px;
+    margin:10px;
+    /* border-radius: 30px; */
+    text-align:center;
+    padding:10px;
+    margin-top:0;
+    padding-top:0;
+}
+#home{
+    width: 100%;
+    height:auto;
+    background-color:rgb(173, 239, 239);
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#hmo{
+      width: 280%;
+    height: 425%;   /* fixed equal height */
+    object-fit: cover; 
+    /* border-radius: 10px; */
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#About{
+   
+    background-color:rgb(227, 241, 199);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#about1{
+    font-style: italic;
+    font-size: 15px;
+}
+#contact{
+    font-style: italic;
+    font-size: 15px;
+    background-color: rgb(245, 186, 198);
+    padding: 20px;
+}
+
+
+
+
+
