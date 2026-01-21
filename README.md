@@ -20,8 +20,5 @@ This project was created to practice:
 - Linking external CSS files
 - Hosting a project using GitHub Pages
 
-## Live Demo
-https://harikatippavajjula.github.io/starstorewebpage/starstore.html
-
 ## Author
 Harika Tippavajjula
